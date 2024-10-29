@@ -297,7 +297,7 @@ myShip = sprites.create(img`
     . . . . . . . 4 . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(myShip)
-myShip.setStayInScreen(true)
+myShip.setStayInScreen(false)
 animation.runImageAnimation(
 myShip,
 [img`
